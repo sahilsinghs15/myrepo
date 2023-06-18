@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pinak Idea Lab</title>
+  <style>
+  /* Styling the body */
+body {
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Styling the heading */
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling the emoji */
+.emoji {
+  font-size: 48px;
+  color: #333;
+  transform: rotate(-90deg);
+  margin-top: 10px;
+}
+
+/* Styling the wave shape */
+.shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background-color: red;
+  transform-origin: bottom center;
+ clip-path:polygon(-50% -0%, 25% 25%, 50% 50%, 75% 0%, 100% 0%, 100% 100%, 0% 100%) ;
+}
+
+
+  </style>
+</head>
+<body>
+  <h1>Pinak Idea Lab</h1>
+  <span class="emoji">🙂</span>
+ <div> 
+    <span class="shape"></span>
+ </div>
+</body>
+</html>
